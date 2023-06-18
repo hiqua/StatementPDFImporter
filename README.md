@@ -30,6 +30,14 @@ using [pip](https://pip.pypa.io/en/stable/):
 python -m pip install pdf-importer
 ```
 
+You can also clone this repository, then after `cd`ing into it:
+
+```
+pipx install .
+```
+
+which should make a `pdf_importer` executable available in your `$PATH`.
+
 ## Usage
 
 You can parse a PDF statement simply with
