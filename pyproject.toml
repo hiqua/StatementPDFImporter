@@ -1,3 +1,6 @@
+project.name="pdf_importer"
+project.version="0.1"
+
 [build-system]
 # Minimum requirements for the build system to execute.
 requires = [
@@ -6,3 +9,7 @@ requires = [
     "pip>=10.0.0",
 ]
 build-backend = "setuptools.build_meta:__legacy__"
+
+[project.scripts]
+pdf_importer = "pdf_importer:pdf_importer.pdf_importer"
+
